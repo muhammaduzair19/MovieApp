@@ -1,0 +1,123 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 30px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 1px solid black; */
+}
+.for-rating #forRating{
+    width:63%;
+    height: 25px;
+}
+.btn{
+    width: 300px;
+    margin-left: 10.5%;
+}
+.searchBtn{
+    width: 10%;
+    height: 25px;
+    font: bold;
+}
+.for-rating{
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-left: 50px; */
+}
+.for-genre #forGenre{
+    width: 350px;
+    height: 25px;
+}
+.for-genre{
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-left: 50px; */
+}
+.for-year #forYear{
+    width: 250px;
+    height: 25px;
+}
+.for-year{
+    font-size: x-large;
+    font-weight: bold;
+}
+.for-language #forLanguage{
+    width: 300px;
+    height: 25px;
+}
+.for-language{
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-right: 50px; */
+}
+.metaData{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 9px;
+}
+.Data{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 9px;
+}
+.Data div{
+    width: 100%;
+    display: flex;
+}
+.rank{
+    width: 15%;
+}
+.movie{
+    width: 60%;
+}
+.year{
+    width: 20%;
+}
+.linemovie{
+    width: 55%;
+    margin-right: 5%;
+    padding: 10px;
+
+}
+.lineyear{
+    width: 20%;
+    padding: 10px;
+}
+.linerank{
+    width: 10%;
+    padding: 10px;
+    margin-right: 5%;
+}
+.movieimg{
+    width: 70px;
+    height: 90px;
+}
